@@ -42,4 +42,6 @@ def change_friends(request, operation, pk):
         Friend.make_friend(request.user, friend)
     elif operation == 'remove':
         Friend.lose_friend(request.user, friend)
+    else:
+        print('Invalid Entry')
     return redirect('home:home')
