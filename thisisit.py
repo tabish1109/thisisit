@@ -9,8 +9,6 @@ he is a real genius
 I mean fucking Awesome Genius
   
 
-This is the last one.
-
 
 from django.views.generic import TemplateView
 from django.shortcuts import render, redirect
